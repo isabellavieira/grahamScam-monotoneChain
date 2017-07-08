@@ -1,0 +1,64 @@
+   #===========================================================================================#
+   |                       Algoritmos e Estruturas de Dados III - TP4   
+   |                                                
+   |                                          
+   |										  										Convex Hull
+   |                                          	      
+   #============================================================================================#
+    
+   Autores:
+	Isabella Vieira Ferreira
+	Mônica Neli de Resende   
+
+
+   #=============================================================================================#
+   |                                     Organização desse documento                            
+   #=============================================================================================#
+   |                                                                                                                     
+   |    1. Introdução                                         				   
+   |    2. Procedimento de execução             
+   | 
+   #=============================================================================================#
+
+
+   #=============================================================================================#
+   |   1.Introdução                                                                                           
+   #=============================================================================================#
+   |    	
+   |  	Este programa foi escrito em liguagem C, e tem como principal objetivo calcular o Convex
+   |  Hull.
+   |
+   |	O código foi desenvolvido no Sistema Operacional Linux - Ubuntu 12.04 32 bits. 
+   | 
+   |      
+   |                                                                                                      
+   #=============================================================================================#
+ 
+   #==============================================================================================#
+   |   2.Procedimento de execução                            
+   #==============================================================================================#
+   |                                                             
+   |      
+   |	Para juntar os módulos do projeto e compilá-los foi desenvolvido um Makefile.
+   |
+   |	Para compilar o trabalho é preciso entrar na pasta e digitar o seguinte comando no terminal: 
+   |										make
+   |	
+   | 	Após a compilação, para executar o programa é preciso digitar no terminal: 
+   |
+   |	./tp4 <nome-do-arquivo-de-entrada> <numero-maximo-threads> <estratégia>    
+   |	
+   |	Onde:
+   |	- <nome-do-arquivo-de-entrada> é o nome do arquivo de entrada;
+   |	- <numero-maximo-threads> é número de threads que serão utilizadas pelo programa;
+   |    - <estratégia> é qual método o usuário deseja utilizar para calcular o Convex Hull,
+   |	sendo:
+   |
+   |    	1. Monotone Chain
+   |		2. Graham Scan
+   |		
+   |		
+   |
+   |	Para fazer uma limpeza do projeto compilado digite: make clean
+   |
+   #=============================================================================================#
